@@ -1,0 +1,36 @@
+# Dev Log 
+
+* 2026-07-19 *
+
+## Goal
+Build the foundation for the task planner.
+
+## Done
+- Created the project structure.
+- Set up React + Vite + TypeScript.
+- Installed Tailwind CSS.
+- Added routing with React Router.
+- Created placeholder pages:
+  - Dashboard
+  - Tasks
+  - Settings
+
+## Decisions
+- Using SQLite for the MVP because it's simple and requires no server.
+- Keeping authentication out of v1 so I can validate the core idea faster.
+
+## Challenges
+- Couldn't decide how tasks should be prioritized.
+- Need to research scheduling algorithms.
+
+## Learned
+- React Router's nested layouts reduce duplicate code.
+- Vite aliases make imports much cleaner.
+
+## Next
+- Design the database schema.
+- Build the "Add Task" flow.
+- Create the task card component.
+
+## Commit
+feat: scaffold North MVP with routing and base layout
